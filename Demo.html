@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Examples</title>
+    <!-- <style>
+      div#mydiv {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 14s; /* adjusted duration */
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes example {
+        0% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+        21.4% {
+          background-color: yellow;
+          left: 200px;
+          top: 0px;
+        }
+        42.9% {
+          background-color: blue;
+          left: 200px;
+          top: 200px;
+        }
+        64.3% {
+          background-color: green;
+          left: 0px;
+          top: 200px;
+        }
+        85.7%,
+        100% {
+          background-color: red;
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style> -->
+    <!-- <title>CSS Examples</title> -->
+    <!--
+      HYPERLINKS
+      <style type="text/css">
+      a {
+        text-decoration: none;
+      }
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: gray;
+      }
+      a:hover {
+        color: pink;
+        text-decoration: underline;
+      }
+      a:active {
+        color: green;
+      }
+    </style> -->
+
+    <!-- <style type="text/css">
+      h1 {
+        color: blue;
+        font-family: Helvetica;
+      }
+      h2 {
+        color: green;
+      }
+    </style> -->
+    <style>
+      div {
+        width: 300px;
+        height: 100px;
+        background-color: pink;
+        border: 1px solid black;
+      }
+      div#mydiv {
+        transform: rotate(20deg);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to the css course</h1>
+    <h2>Easy Learning</h2>
+
+    <!-- HYPERLINK 
+    <a href="https://udemy.com">Click here for your udemy courses</a> -->
+
+    <!-- <p style="font-family: Arial, Helvetica, sans-serif">
+      My Name is Iyebiye Faleye
+    </p>
+    <p style="font-style: italic">This is Italics</p>
+    <p style="font-variant: small-caps">This is Small Caps Examples</p>
+    <p style="font-weight: bold">This is Bold</p>
+    <p style="font-size: 100px">This font size is 100px</p>
+    <p style="font-size: small">Small Font size example</p>
+    <p style="font-size: Large">Large Font size Example</p>
+    <p style="font: italic small-caps bold 15px Helvetica">
+      Shorter way to style
+    </p> -->
+
+    <!-- <p style="color: red">Paragraph with red colour</p>
+    <p style="direction: rtl">Paragraph right to left</p>
+    <p style="letter-spacing: 5px">Paragraph with letter spacing 5px</p>
+    <p style="word-spacing: 5px">Paragraph with word-spacing 5px</p>
+
+    <p style="text-indent: 1cm">Paragraph with text indent 1cm</p> -->
+
+    <!-- <p style="text-decoration: underline">This will be underlined</p>
+    <p style="text-decoration: line-through">This will be striked through</p>
+    <p style="text-decoration: overline">This will have overline</p>
+    <p style="text-decoration: blink">This text will have blinking effect</p>
+    <p class="blink-text">This text will have a blinking effect</p> -->
+
+    <!-- // TEXT TRANSFORM  -->
+    <!-- <p style="text-transform: capitalize">This Text will be capitalized</p>
+    <p style="text-transform: uppercase">This Text will be in uppercase</p>
+    <p style="text-transform: lowercase">This text will be in lowercase</p> -->
+
+    <!-- TEXT SHADOW 
+    <p style="text-shadow: 6px 4px 8px blue">This is text shadow</p> -->
+
+    <!-- CSS LINKS -->
+    <!-- <div
+      style="
+        background-color: green;
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        left: 120px;
+        z-index: 2;
+      "
+    ></div>
+    <div
+      style="
+        background-color: red;
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        z-index: 3;
+      "
+    ></div>
+    <div
+      style="
+        background-color: yellow;
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        top: 80px;
+        left: 40px;
+        z-index: 1;
+      "
+    ></div> -->
+
+    <!-- Unordered nested list (by default)
+    <ul style="list-style: none">
+      <li>Tea</li>
+      <li>cofee</li>
+      <li>Soft Drink</li>
+      <ul>
+        <li>Coca-cola</li>
+        <li>Mirinda</li>
+        <li>7 up</li>
+        <li>Thumps Up</li>
+      </ul>
+      <hr />
+      Similarly using styling:
+    </ul>
+    <ul style="list-style: none">
+      <li style="list-style-type: square">1</li>
+      <li style="list-style-type: square">1</li>
+      <li style="list-style-type: square">1</li>
+    </ul>
+    <ul style="list-style: none">
+      <li style="list-style-type: disc">2</li>
+      <li style="list-style-type: disc">2</li>
+      <li style="list-style-type: disc">2</li>
+    </ul>
+    <ul style="list-style: none">
+      <li style="list-style-type: circle">3</li>
+      <li style="list-style-type: circle">3</li>
+      <li style="list-style-type: circle">3</li>
+    </ul>
+    <ol>
+      <li style="list-style-type: lower-roman"></li>
+      <li style="list-style-type: lower-roman"></li>
+      <li style="list-style-type: lower-roman"></li>
+    </ol>
+    <ol>
+      <li style="list-style-type: upper-alpha"></li>
+      <li style="list-style-type: upper-alpha"></li>
+      <li style="list-style-type: upper-alpha"></li>
+    </ol>
+    <hr />
+    To Prepare List HOrizontally:
+    <ul>
+      <li style="float: left; width: 10%">Physics</li>
+      <li style="float: left; width: 10%">Chemistry</li>
+      <li style="float: left; width: 10%">Science</li>
+      <li style="float: left; width: 10%">Mathematics</li>
+    </ul>
+    <br /><br /><br /><br />
+    To Remove Bullets
+    <ul style="list-style: none">
+      <li style="float: left; width: 10%">Physics</li>
+      <li style="float: left; width: 10%">Chemistry</li>
+      <li style="float: left; width: 10%">Science</li>
+      <li style="float: left; width: 10%">Mathematics</li>
+    </ul> -->
+    <div>This is box 1</div>
+    <div id="mydiv">This is box 2</div>
+  </body>
+</html>
